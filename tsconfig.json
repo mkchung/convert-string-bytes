@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "target": "ES5",
+    "lib": [
+      "es2017"
+    ],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "removeComments": true,
+    "declaration": true,
+    "declarationDir": "./dist"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    "gulpfile.js"
+  ]
+}

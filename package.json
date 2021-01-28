@@ -1,0 +1,50 @@
+{
+  "name": "convert-string-bytes",
+  "version": "0.1.0",
+  "description": "Convert to/from strings and array of bytes",
+  "homepage": "https://github.com/mkchung/convert-string-bytes",
+  "keywords": [
+    "string",
+    "strings",
+    "convert",
+    "hex",
+    "bytes"
+  ],
+  "scripts": {
+    "compile": "rm -rf ./dist && tsc",
+    "compile-gulp": "rm -rf ./dist && gulp",
+    "clean": "rm -rf ./dist"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "mkchung",
+    "email": "mk_free@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkchung/convert-string-bytes.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "merge2": "^1.4.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "checkFiles": [
+    "src/**/*.ts*"
+  ]
+}
